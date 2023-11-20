@@ -1,0 +1,125 @@
+@media only screen and (max-width: 600px) {
+    .example{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .header{
+      
+        font-size: 75%;
+        background-color: #abacab;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header .home{
+      position: relative;
+      color: rgb(10, 10, 10);
+    
+      right: 45%;
+    }
+
+    .menu{
+        float: left;
+        width: 100%;
+        background-color: #0c0c0c;
+    }
+
+    .menu ul li{
+        list-style: none;
+        display: inline;
+    }
+
+    .menu li a{
+        display: block;
+        text-decoration: none;
+        border-right: 2px solid #FFFFFF;
+        padding: 3px 10px;
+        float: left;
+        color: #FFFFFF;
+
+    }
+
+    .menu li a:hover{
+        background-color: #cccccc;
+    }
+
+
+
+    .image{
+        background-color: salmon;
+
+    }
+
+    .image img{
+        position: relative;
+        left: 23%;
+       
+    }
+
+    #space{
+        margin-bottom: 10%;
+        padding: 7%;
+        text-align: center;
+        background-color: bisque;
+    }
+
+    div p{
+        text-align: center;
+    }
+
+    .footer{
+        position: relative;
+        background-color: #abacab;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 9%;
+    } 
+
+    .icon-bar {
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+      
+      .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+      }
+      
+      .icon-bar a:hover {
+        background-color: #000;
+      }
+      
+      .facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+      
+     .whatsapp {
+        background: #3fdd39;
+        color: white;
+      }
+     .home{
+      color: white;
+      font-size: 24px;
+     }
+
+      video{
+        position: relative;
+        left: 5%;
+        margin-top: 5%;
+      }
+
+}
