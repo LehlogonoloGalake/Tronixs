@@ -50,11 +50,12 @@
 
     }
 
-   /* .image img{
-        
+    .image img{
+       position: absolute;
+        left:15%;
         
        
-    }*/
+    }
 
     #space{
         margin-bottom: 10%;
